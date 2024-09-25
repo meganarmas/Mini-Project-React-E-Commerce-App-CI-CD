@@ -77,4 +77,4 @@ jobs:
         run: vercel build --token=s0w5B1oVAqtJT8pqGElZ4ocJ
       
       - name: Deploy Projects Artifacts to Vercel
-        run: vercel deploy --prebuilt --token=s0w5B1oVAqtJT8pqGElZ4ocJ
+        run: vercel deploy --prebuilt --token={{ secrets.s0w5B1oVAqtJT8pqGElZ4ocJ }}
