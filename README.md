@@ -17,5 +17,5 @@ There is a language button in both the Home page and the Shopping Cart page. Cli
 To test CRUD operations, go to the "__test__" folder and click on the appropriate file. Type in "npm run test" in the terminal. Test will start automatically.
 
 If the test file is not working, type ```python
-"npm install --save-dev @testing-library/react @testing-library/jest-dom jest" into the terminal.
-```
+"npm install --save-dev @testing-library/react @testing-library/jest-dom jest"``` into the terminal.
+
